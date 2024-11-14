@@ -18,24 +18,27 @@
   
   .headerContainer h1 {
     justify-content: center;
+    font-family: cursive;
     align-items: center;
     font-size: 90px;
     height: 60px;
-    font-weight: 50;
+    font-weight: bold;
     color: black;
   }
   
   .headerContainer p {
     padding: 0;
     font-size: 40px;
-    font-weight: lighter;
+    margin-top: 70px;
+    font-family: cursive;
+    font-weight:bolder; 
     color: black;
   }
   
   .headerContainer button {
     color: black;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     justify-content: center;
     background-color: #121619;
@@ -43,13 +46,16 @@
     width: 180px;
     color: white;
     text-decoration: none;
+    font-family: cursive;
     font-size: 20px;
   }
   
   .headerContainer button:hover {
-    background-color: #07090a;
+    background-color: white;
+    color: #121619;
     cursor: pointer;
     transition: 0.3s ease-in;
+    border: 1px solid  #121619;
   }
   
   @media only screen and (max-width: 650px) {

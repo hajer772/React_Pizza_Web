@@ -30,10 +30,12 @@
 }
 
 .about .aboutBottom h1 {
-  font-weight: 400;
+  font-weight: bold;
   font-size: 70px;
   color: black;
   height: 30px;
+  font-family: cursive;
+
   display: flex;
   justify-content: center;
   transform: translateY(-40px);
